@@ -1,0 +1,12 @@
+-- Database: GLOBALPLA Metadata version: 2 Exported: Apr 14, 2022
+-- Begin Tables
+SET LEGACYTYPESALLOWED = ON;
+-- Begin Multi-Line Statement
+CREATE TABLE "GCG_6696_PO_NOTES" USING 'GCG_6696_PO_NOTES.mkd' PAGESIZE=4096 (
+ "PURCHASE_ORDER" CHAR(7),
+ "RECORD_NO" CHAR(4),
+ "NOTES_1" LONGVARCHAR,
+ "NOTES_2" LONGVARCHAR );
+-- End Multi-Line Statement
+SET LEGACYTYPESALLOWED = OFF;
+-- End Tables
